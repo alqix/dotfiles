@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "core@catppuccin.com",
+                "Name": "Catppuccin"
+            },
+            {
+                "Email": "alqix@alqix.com",
+                "Name": "Alp"
+            }
+        ],
+        "Category": "",
+        "Dependencies": [
+        ],
+        "EnabledByDefault": true,
+        "Description": "Soothing Pastel theme for Kwin",
+        "Id": "catppuccin_macos",
+        "License": "MIT",
+        "Name": "Catppuccin Macchiato MacOS Buttons",
+        "Version": "0.2.6"
+    }
+}
