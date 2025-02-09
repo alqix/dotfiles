@@ -1,0 +1,91 @@
+/* ------------------ */
+/* --- Custom CSS --- */
+/* ------------------ */
+
+/* --- EXAMPLE: Override Theme Colors --- */
+:root {
+	/* The main accent color and the matching text value */
+	--adw-accent-bg-rgb: 166, 77, 121;
+	--adw-accent-fg-rgb: 236, 185, 207;
+	--adw-accent-rgb: 120, 174, 237;
+
+	/* destructive-action buttons */
+	--adw-destructive-bg-rgb: 192, 28, 40;
+	--adw-destructive-fg-rgb: 255, 255, 255;
+	--adw-destructive-rgb: 255, 123, 99;
+
+	/* Levelbars, entries, labels and infobars. These don't need text colors */
+	--adw-success-bg-rgb: 38, 162, 105;
+	--adw-success-fg-rgb: 228, 201, 214;
+	--adw-success-rgb: 143, 240, 164;
+
+	--adw-warning-bg-rgb: 205, 147, 9;
+	--adw-warning-fg-rgb: 0, 0, 0;
+	--adw-warning-fg-a: 0.8;
+	--adw-warning-rgb: 248, 228, 92;
+
+	--adw-error-bg-rgb: 192, 28, 40;
+	--adw-error-fg-rgb: 255, 255, 255;
+	--adw-error-rgb: 255, 123, 99;
+
+	/* Window */
+	--adw-window-bg-rgb: 116, 53, 84;
+	--adw-window-fg-rgb: 228, 201, 214;
+
+	/* Views - e.g. text view or tree view */
+	--adw-view-bg-rgb: 106, 43, 75;
+	--adw-view-fg-rgb: 228, 201, 214;
+
+	/* Header bar, search bar, tab bar */
+	--adw-headerbar-bg-rgb: 73, 33, 54;
+	--adw-headerbar-fg-rgb: 228, 201, 214;
+	--adw-headerbar-border-rgb: 255, 255, 255;
+	--adw-headerbar-backdrop-rgb: var(--adw-window-bg-rgb);
+	--adw-headerbar-shade-rgb: 0, 0, 0;
+	--adw-headerbar-shade-a: 0.36;
+	--adw-headerbar-darker-shade-rgb: 0, 0, 0;
+	--adw-headerbar-darker-shade-a: 0.9;
+
+	/* Split pane views */
+	--adw-sidebar-bg-rgb: 92, 42, 67;
+	--adw-sidebar-fg-rgb: 228, 201, 214;
+	--adw-sidebar-backdrop-rgb: 42, 42, 42;
+	--adw-sidebar-shade-rgb: 0, 0, 0;
+	--adw-sidebar-shade-a: 0.36;
+
+	--adw-secondary-sidebar-bg-rgb: 73, 33, 54;
+	--adw-secondary-sidebar-fg-rgb: 228, 201, 214;
+	--adw-secondary-sidebar-backdrop-rgb: 39, 39, 39;
+	--adw-secondary-sidebar-shade-rgb: 0, 0, 0;
+	--adw-secondary-sidebar-shade-a: 0.36;
+
+	/* Cards, boxed lists */
+	--adw-card-bg-rgb: 255, 255, 255;
+	--adw-card-bg-a: 0.08;
+	--adw-card-fg-rgb: 255, 255, 255;
+	--adw-card-shade-rgb: 0, 0, 0;
+	--adw-card-shade-a: 0.36;
+
+	/* Dialogs */
+	--adw-dialog-bg-rgb: 166, 77, 121;
+	--adw-dialog-fg-rgb: 228, 201, 214;
+
+	/* Popovers */
+	--adw-popover-bg-rgb: 92, 42, 67;
+	--adw-popover-fg-rgb: 255, 255, 255;
+	--adw-popover-shade-rgb: 0, 0, 0;
+	--adw-popover-shade-a: 0.36;
+
+	/* Thumbnails */
+	--adw-thumbnail-bg-rgb: 183, 99, 141;
+	--adw-thumbnail-fg-rgb: 255, 255, 255;
+
+	/* Miscellaneous */
+	--adw-shade-rgb: 0, 0, 0;
+	--adw-shade-a: 0.36;
+
+	/* Skin-specific */
+	--adw-user-offline-rgb: 128, 128, 128;
+	--adw-user-online-rgb: 120, 174, 237;
+	--adw-user-ingame-rgb: 143, 240, 164;
+}
